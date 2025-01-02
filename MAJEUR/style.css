@@ -1,0 +1,10 @@
+body
+    /*Fond de pageen rgb(218,176,115)*/
+	{
+	    background:rgb(218,176,115)
+	}
+p /* Paramètres des paragraphes */
+{
+	color: black; /* Le texte sera blanc*/
+	font-size:30px; /* Taille du textede 20 pixels*/ 
+}

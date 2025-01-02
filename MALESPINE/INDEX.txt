@@ -1,0 +1,22 @@
+<html>
+	<head> 
+		<link rel="stylesheet" href="style.css"> 
+		<title> Le cyberharcelement </title>
+	
+	</head>
+<body> 
+	<p><a href="../GAZA/index.html">Page 2</a></p>
+	<h1>le cyberharcèlement</h1>
+	<h2> les prévensions </h2>
+	<p> les prévensions pour me cyberharcèlement sont :<p>
+	<li>donner le minimum d'informations sur soi
+	<li>éviter de communiquer ses opinions 
+	<li>éviter de donner son numero de telephone a n'importe qui
+	<li>eviter d'ébruiter sa religion
+	<li>ne pas divulguer des photos ou videos intimes 
+	<li>ne pas avoir de reseaux sociaux
+</body>
+
+
+
+</html>

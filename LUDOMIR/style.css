@@ -1,0 +1,22 @@
+
+body /* Fond de page en rgb(218,176,115) */
+{ 
+    background:rgb(218,176,115);
+	
+}
+p /* Paramètres des paragraphes */
+{
+	color: black; /* Le texte sera noir */
+	text-align: justify; /* Mode alignement justifié */
+	font-size: 20px; /* Taille du texte de 20 pixels*/
+	font-style: italic; /* En italic */
+}
+h1 /* Paramètres des titres de niveau 1 */
+{
+	color: red; /* Le texte sera de couleur rouge */
+	text-align: center; /* Mode alignement centré */
+	font-size: 2em; /*2em = 2 fois la taille normal */
+	font-weight:bold; /* en gras*/
+	text-shadow: 2px 2px 4px black; /* Ombre au texte avec px pour pixel */
+	border: 3px grey solid; /* Arrondi au 4 coins */
+	box-shadow: 6px 6px 0px grey inset; /* Ombre en intérieur de la bordure */

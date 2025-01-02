@@ -1,0 +1,52 @@
+body /*Fond de page en violet*/
+{
+    background:rgb(206, 177, 245);
+}
+p   /*Paramètres de paragraphe*/
+{
+    text-align:justify;
+    font-size:35px;
+}
+h1 /*Paramètres des titres de niveau 1*/
+{
+    color:rgb(233, 14, 14);
+    font-weight:bold;/*En gras*/
+}
+h2 /*Paramètres des titres de niveau 2*/
+{
+    font-size:3em;
+    font-style:italic;
+    text-align:center;
+    text-decoration-line: underline;
+    
+}
+h3 /*Paramètres des titres de niveau 3*/
+{
+    font-size:2em;
+    font-style:italic;
+    color:rgb(33, 26, 94);
+    text-align:center;
+    text-decoration-line: underline;
+}
+h4 /*Paramètres des titres de niveau 4*/
+{ 
+    font-size:30px;
+    font-style:italic;
+    color:rgb(110, 12, 45);
+    text-align:center;
+    text-decoration-line: underline
+}
+ul /*Paramètres de paragraphe*/
+{
+    font-size:25px;
+    text-align: center;
+}
+#image
+{
+    text-align: center;
+}
+h5
+{
+    text-align: right;
+    font-size:15px;
+}
