@@ -1,0 +1,27 @@
+body
+{
+    background: rgb(197, 180, 192);
+	
+}
+
+P /* paramètre de paragraphes */
+{
+  color:blue;
+  text-align: center;
+  font-size:30;
+}
+
+h1 /* paramètre des titres */
+{ 
+  color: red;
+  text-align: center;
+  font-style: italic;
+  font-size: 150px
+}
+
+h4/* paramètre des titres */ 
+{ 
+ color:bisque;
+ text-align:center;
+ font-size:60px
+}

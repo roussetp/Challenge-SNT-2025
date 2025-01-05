@@ -1,0 +1,14 @@
+body /* Fond de page en black */
+{
+    background-image: url(pro.jpg);
+    color: aliceblue;
+}
+h1{
+    color: red;
+}
+h2{
+    color: blue;
+}
+P{
+    color: darkorange;
+}

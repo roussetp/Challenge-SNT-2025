@@ -1,0 +1,9 @@
+<html>
+    <head>
+	    <title>Ma première page Web</title>
+	</head>
+	<body>
+	    <h1>Histoire de s'initier</h1>
+		<p>Une fois ce code exécuté, je vais enfin comprendre</p>
+	</body>
+</html>

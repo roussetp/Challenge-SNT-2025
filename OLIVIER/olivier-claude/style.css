@@ -1,0 +1,25 @@
+body /* fond de page en rose */ 
+{
+  
+background : pink 
+
+}
+p /* Paramètres des paragrahes */
+{
+ color :white /* Le texte sera en Blanc */
+ 
+}
+h1/* Paramètres des titres de niveau 1 */
+{
+color: white; /* le titre sera en blanc*/
+font-size : 3em; /*3em = 3 fois la taille normale */	
+text-align: center; /* Mode alignement centré*/
+font-weight:bold; /*En gras*/
+box-shadow: 6px 6px 0px white inset; /* Ombre en intérieur de la bordure */
+border-radius : 10px; /* Arrondi au 4 coins*/
+border: 3px white solid; /* Bordure autour du texte de couleur blanche*/
+}
+h2 /* Paramètres des titres de niveau 2*/ 
+{
+color: rgb (0,152,0); 
+}

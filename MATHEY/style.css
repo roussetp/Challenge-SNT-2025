@@ -1,0 +1,33 @@
+body
+{
+    background-color:#7acdfd;
+}
+h1
+{
+    color:rgb(236, 93, 165);
+    text-align: center;
+    border: 5px rgb(236, 93, 165) solid;
+    border-radius: 0px;
+    font-size: 3em;
+}
+h2
+{
+    color:rgb(255, 255, 255);
+    text-align: center, left;
+    font-size: 2em;
+	text-decoration: underline;
+}
+p
+{
+    text-align: justify;
+	color: rgb(44, 113, 241);
+	font-size: 150%;
+}
+h3
+{
+    color: rgb(0, 0, 0);
+}
+#image
+{
+    text-align: center;
+}

@@ -1,0 +1,30 @@
+body/*fond de page en pink */
+{
+	 background:rgb(238, 195, 232);
+}
+  
+h1 /* Paramètres des titres de niveau 1 */
+{
+	color: red 
+
+}
+	
+h2 /* Paramètres des titres de niveau 2 */ 
+
+{
+	color: purple
+}	
+h2 /* Paramètres des titres de niveau 3 */ 
+{
+	color: yellow
+}
+
+body /* Paramètres des paragraphes */
+{ 
+color: rgb(203, 24, 209); /* Le texte sera noir */
+
+}
+a /*Paramètres des liens */	
+{
+   text-decoration: unederline; /* L'histoire des poules */ 
+}
