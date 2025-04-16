@@ -1,0 +1,162 @@
+/* Style Global */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #11112e;
+    color: rgb(255, 255, 255);
+    line-height: 1.6;
+}
+
+h1, h2 {
+    color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+}
+
+p {
+    margin-bottom: 20px;
+    font-size: 1.1em;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #084066;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #b0b9c2;
+}
+
+/* En-tête */
+header {
+    background: linear-gradient(to right, #0a588b, #8e44ad);
+    color: rgb(52, 36, 59);
+    text-align: center;
+    padding: 50px 20px;
+}
+
+header h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+/* Navigation */
+nav {
+    background-color: #34495e;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    font-size: 1.2em;
+    color: rgb(255, 255, 255);
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color: #0b4b8b;
+}
+
+/* Sections */
+section {
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 0 auto 40px;
+    background-color: rgb(69, 78, 202);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+section h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #a3cce7;
+}
+
+section img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+}
+
+section img:hover {
+    transform: scale(1.05);
+}
+
+/* Footer */
+footer {
+    background-color: #34495e;
+    color: rgb(99, 97, 189);
+    padding: 30px 20px;
+    text-align: center;
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+footer ul li {
+    margin: 10px 15px;
+}
+
+footer ul li a {
+    color: rgb(104, 56, 216);
+    font-size: 1.1em;
+}
+
+footer ul li a:hover {
+    color: #023252;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin-bottom: 10px;
+    }
+
+    section {
+        padding: 30px 15px;
+    }
+
+    header h1 {
+        font-size: 2.5em;
+    }
+
+    header p {
+        font-size: 1.1em;
+    }
+
+    footer ul {
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,58 @@
+  /* Fond d'écran dégradé multicolore */
+    body {
+      font-family: 'Arial', sans-serif;
+      background: linear-gradient(135deg, #ff8c00, #ff6f00, #e91e63, #4caf50, #2196f3); /* Dégradé en 5 couleurs */
+      background-size: 400% 400%;
+      animation: gradientAnimation 15s ease infinite;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+
+    /* Animation pour un dégradé fluide */
+    @keyframes gradientAnimation {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+h1
+{
+	color: white;
+	text-align: justify;
+	font-size: 20px
+	font-style: italic;
+}
+li
+{
+	color: white;
+	text-align: justify;
+	font-size: 20px
+	font-style: italic;
+}
+p
+{
+	color: white;
+	text-align: justify;
+	font-size: 20px
+	font-style: italic;
+}
+    header .sous-titre {
+      font-size: 1.1em;
+      margin-top: 10px;
+      font-style: italic;
+    }
+
+    .image-container {
+      text-align: center;
+      margin: 30px 0;
+    }
+
+    .licorne-img {
+      max-width: 80%;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+
+  </style>

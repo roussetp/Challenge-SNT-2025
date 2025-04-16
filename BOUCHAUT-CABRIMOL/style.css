@@ -1,0 +1,143 @@
+body {
+            font-family: 'Arial', sans-serif;
+            background-color: #BDB7B7; /* Bleu très pâle */
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #2c3e50; /* Bleu foncé */
+            color: #fff;
+            text-align: center;
+            padding: 2rem 0;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            margin: 0;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            margin: 10px 0 0;
+        }
+
+        section {
+            padding: 2rem;
+            margin: 2rem auto;
+            max-width: 1200px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        section h2 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            color: #2c3e50; /* Bleu foncé */
+        }
+
+        section p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            margin-bottom: 1.5rem;
+            color: #555;
+        }
+
+        section img {
+            max-width: 100%;
+            border-radius: 8px;
+            margin-top: 1rem;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Nouveau conteneur pour les images côte à côte */
+        .image-container {
+            display: flex;
+            gap: 2rem;
+            flex-wrap: wrap;
+        }
+
+        .image-container img {
+            width: 48%;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .section-content {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+        }
+
+        .card {
+            background-color: #ecf0f1; /* Bleu très clair */
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            width: 48%;
+            margin-bottom: 2rem;
+        }
+
+        .card img {
+            width: 100%;
+            height: auto;
+            border-bottom: 2px solid #ddd;
+        }
+
+        .card-content {
+            padding: 1rem;
+        }
+
+        .card-content h3 {
+            font-size: 1.5rem;
+            color: #2c3e50; /* Bleu foncé */
+            margin-bottom: 1rem;
+        }
+
+        .card-content p {
+            font-size: 1rem;
+            color: #777;
+        }
+
+        .button {
+            background-color: #3498db; /* Bleu clair */
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 8px;
+            display: inline-block;
+            transition: background-color 0.3s ease;
+        }
+
+        .button:hover {
+            background-color: #2980b9; /* Bleu moyen */
+        }
+		/* Les Etats-Unis en difficulté financière */
+.financial-crisis {
+    display: flex; /* Utilisation de Flexbox pour mettre l'image et le texte côte à côte */
+    align-items: center;  /* Centrer l'image et le texte verticalement */
+    justify-content: space-between; /* Espacer l'image et le texte */
+    margin-top: 20px;  /* Ajouter un peu de marge en haut de la section */
+}
+
+.financial-crisis .image-container {
+    flex: 1; /* L'image prendra une largeur relative */
+    max-width: 45%;  /* Limiter la taille de l'image à 45% */
+}
+
+.financial-crisis .image-container img {
+    width: 100%;  /* Faire en sorte que l'image prenne 100% de la largeur disponible */
+    height: auto;  /* Garder les proportions de l'image */
+    border-radius: 10px;  /* Arrondir les coins de l'image */
+}
+
+.financial-crisis .text-container {
+    flex: 2;  /* Le texte prendra plus de place que l'image */
+    margin-left: 20px;  /* Espacement entre l'image et le texte */
+    font-size: 1.1rem;  /* Agrandir légèrement la taille du texte */
+    color: #555;  /* Couleur du texte */
+    line-height: 1.6;  /* Espacement entre les lignes pour une meilleure lisibilité */
+}

@@ -1,0 +1,30 @@
+body /* Fond de page en marron */
+{
+	background:brown;
+}
+p /* Paramètres des paragraphes */
+{
+	color: white; /*le texte sera blanc*/
+	text-align: justify; /*Mode alignement justifié */
+	font-size: 40px; /* Taille du texte de 40 pixels */
+	font-weight: bold; /* En gras */
+}
+h1 /*Paramètres des titres de niveau 1 */
+{
+	text-align: center; /* Mode alignement centré */
+	font-weight: bold; /* En gras */
+	font-size: 60px; /* Taille du texte de 60 pixels*/
+}
+h2 /*Paramètres des titres de niveau 2 */
+{
+	font-weight: bold; /* En gras */
+	font-size: 50px; /* Taille du texte de 50 pixels*/
+	color: orange; /*le texte sera orange*/
+}
+img /*Centered Image Code*/
+{
+	display: block;
+	margin: auto;
+}
+
+

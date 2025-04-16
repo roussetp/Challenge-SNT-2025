@@ -1,0 +1,84 @@
+body /* Fond de page en pink */
+{
+background: #b89cb1 ;
+}
+
+body /* Paramètres de la page par défaut */
+{
+	/*background: pink; /* Couleur de fond unie ou */
+	background-image: url("fond de page.jpg") ; /* Image de fond */
+	background-attachment: fixed; /* Le fond restera fixe */
+	background-repeat: repeat; /* Le motif se répétera */
+}	
+p /* Paramètres des paragraphes */
+{
+	color: white; /* Le texte sera blanc */
+	text-align: center; /* Mosde alignement centré */
+	font-size: 1em; /* 2em = 4 fois la taille normale */
+	font-style: italic; /* En italic */
+	
+
+}
+h1 /* Paramètres des titres de niveau 1 */
+{
+	color: white; /* Le texte sera de couleur blanc */
+	text-align: center; /* Mode alignement centré */
+	font-size: 3em; /* 4em = 4 fois la taille normale */
+	font-weight:bold; /* En gras */
+	text-shadow: 2px 2px 4px white; /* Ombre au texte avec px pour pixel */
+	border: 5px white solid; /*Bordure autour du texte de couleur grise */
+	border-radius: 3px; /* Arrondi au 4 coins */
+	box-shadow: 6px 6px 0px white inset; /* Ombre en intérieur de la bordure */
+	text-decoration: underline overline #ffffff;
+}
+h2 /* Paramètres des titres de niveau 2 */
+{
+	color: rgb(147, 115, 146); /* Le texte sera de couleur rose (86 = 0%
+	première valeur pour le Rouge, 67 = 22% deuxième valeur pour le vert
+     et 67 = 30% pour le bleu) */
+     text-align:center; /* Mode alignement sur le centre */
+     font-size: 3.2em;
+}
+h3
+{
+	color: rgb(255, 255, 255);
+     text-align:center;
+     font-size: 3em;
+	 font-weight:bold; /* En gras */
+	 text-shadow: 2px 2px 4px white; /* Ombre au texte avec px pour pixel */
+	 border: 5px white solid; /*Bordure autour du texte de couleur grise */
+	 border-radius: 3px; /* Arrondi au 4 coins */
+	 box-shadow: 6px 6px 0px white inset; /* Ombre en intérieur de la bordure */
+	 text-decoration: underline #ffffff;
+}
+h4 /* Paramètres des titres de niveau 2 */
+{
+	color: rgb(146, 113, 138); /* Le texte sera de couleur rose (109 = 21%
+	première valeur pour le Rouge, 58 = 72% deuxième valeur pour le vert
+     et 31 = 27% pour le bleu) */
+     text-align: justify; /* Mode alignement sur le centre */
+     font-size: 2.5em;
+	 text-decoration: underline #b89cb1 ;
+}
+li /* Paramètres des puces */
+{
+     color: rgb(255, 255, 255);
+	 text-align:center;
+	 font-size: 2.5em;
+	 font-style: italic;
+	 text-decoration: underline #ffffff;
+	 border:5px white solid;
+	 border-radius: 3px;
+	 box-shadow: 6px 6px 0px white inset;
+	 text-shadow: 2px 2px 4px white;
+}
+a /* Paramètres des liens */
+{
+	text-decoration: underline; /* Texte souligné */
+}
+h5
+{
+ 	 color: rgb(205, 133, 63); /* Le texte sera de couleur blanc */
+	text-align: center; /* Mode alignement centré */
+	font-size: 3em; /* 4em = 4 fois la taille normale */
+}

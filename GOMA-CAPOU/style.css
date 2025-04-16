@@ -1,0 +1,20 @@
+body /* Fond de page en green */ 
+{
+     background-image: url("BB.jfif");
+}
+li
+{
+	color: white;
+}
+h1
+{
+	color: purple;
+}
+h2
+{
+	color: red;
+}
+h3
+{
+	color: white;
+}

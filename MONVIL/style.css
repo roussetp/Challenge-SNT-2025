@@ -1,0 +1,85 @@
+ css
+
+h1 {
+    color: navy;
+    text-align: center;
+    text-decoration: underline overline;
+    text-transform: uppercase;
+    font-size: 32pt;
+    font-weight: normal;
+}
+
+h2 {
+    color: purple;
+    font-size: 22pt;
+    font-variant: small-caps;
+    text-decoration: underline;
+    text-indent: 40px;
+}
+
+p {
+    color: purple;
+    font-size: 15pt;
+}
+
+a {
+    color: gray;
+    text-decoration: none;
+}
+
+a:hover {
+    color: orange;
+    text-decoration: underline;
+}
+
+body {
+    font-family: Arial, sans-serif;
+
+    background-image: url("back.jpg");
+       
+    background-attachment: fixed;
+    
+}
+
+h1 {
+    color: navy;
+    text-align: center;
+    text-decoration: underline overline;
+    text-transform: uppercase;
+    font-size: 32pt;
+    font-weight: normal;
+}
+
+h2 {
+    color: purple;
+    font-size: 22pt;
+    font-variant: small-caps;
+    text-decoration: underline;
+    text-indent: 40px;
+}
+
+p {
+    color: purple;
+    font-size: 15pt;
+}
+
+a {
+    color: gray;
+    text-decoration: none;
+}
+
+a:hover {
+    color: orange;
+    text-decoration: underline;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    background-image: url(); 
+    background-size: cover; /* Couvre toute la surface */
+    background-position: center; /* Centre l'image */
+    background-attachment: fixed; /* Fixe l'image de fond lors du défilement */
+    margin: 0;
+    padding: 0;
+}
+
