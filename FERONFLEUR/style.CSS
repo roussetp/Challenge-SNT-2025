@@ -1,0 +1,46 @@
+body /* Paramètres de la page par défaut */
+{
+	/*background: gray; /* couleur de fond unie ou */
+	background-color:slategray;
+}
+p /* Paramètres des paragraphes */
+{
+	color: white; /* Le texte sera noir*/
+	text-align: justify; /* Mode d'alignement justifié */
+	font-size: 30px; /* Taille du texte de 30 pixels*/
+	font-style: oblique; /*En oblique*/
+}   
+img
+{
+    width: 500px;
+    height: 300px;
+	border: 3px black solid;
+	border-radius: 20px;
+}	
+h1 /* Paramètres des titres de niveau 1 */
+{
+	color: black; /* Le texte sera de couleur bleu */
+	text-align: center /* Mode alignement centré */
+	font-size: 2em; /* 2em= 2 fois la taille normale */
+	font-weight: bold; /* En gras*/
+	border: 3px black solid;
+	border-radius: 20px;
+	background-color: white;
+}
+li /* Paramètres des puces */
+{
+	color: red; /* couleur des puces rouges */
+	text-align: justify;
+	font-size: 30px; /* Taille du texte de 30 pixels*/
+	font-weight: bold;
+}
+h2 /* Paramètres des titres de niveau 2 */
+{
+	color: black; /* Le texte sera de couleur noir */
+	text-align: center /* Mode alignement centré */
+	font-size: 2em; /* 2em= 2 fois la taille normale */
+	font-weight: bold; /* En gras*/
+	font-size: 30px;
+	text-decoration: underline;
+	background:white;
+}
